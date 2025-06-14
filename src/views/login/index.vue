@@ -4,9 +4,9 @@ import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import { User, Lock } from '@element-plus/icons-vue'
 import type { FormInstance, FormRules } from 'element-plus'
-import { authApi } from '@/api/auth'
-import { useUserStore } from '@/stores/user'
-import type { LoginResponse } from '@/stores/user'
+import { authApi } from '@/api/auth.ts'
+import { useUserStore } from '@/stores/user.ts'
+import type { LoginResponse } from '@/stores/user.ts'
 
 interface LoginForm {
   username: string

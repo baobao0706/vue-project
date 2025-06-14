@@ -16,11 +16,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@devui-design/icons": "^1.4.0",
     "axios": "^1.9.0",
+    "devui-theme": "^0.0.7",
     "element-plus": "^2.9.11",
     "pinia": "^3.0.1",
     "pinia-plugin-persistedstate": "^4.3.0",
     "vue": "^3.5.13",
+    "vue-devui": "^1.6.32",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
