@@ -9,6 +9,7 @@ const userStore = useUserStore()
     <h1>欢迎回来，{{ userStore.username }}</h1>
     <p>您已成功登录系统</p>
   </div>
+  
 </template>
 
 <style scoped>
